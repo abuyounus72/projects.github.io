@@ -330,7 +330,7 @@
 
     /* ====Small mobile Part===== */
     /* from litte screen to Small screen mobile */
-    @media screen and (min-width:200px) and (max-width:340px) {
+    @media screen and (min-width:200px) and (max-width:371px) {
         .written_area .h1 {
             font-size: 30px;
         }
