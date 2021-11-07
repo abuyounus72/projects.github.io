@@ -1,0 +1,363 @@
+/* ====Tablet Part===== */
+/* from litte screen to ipad pro tablet */
+@media screen and (min-width:200px) and (max-width:991px) {
+    .bg-dark {
+        background: #1142B6 !important;
+        transition: 0.2s ease;
+    }
+
+    #hero_area {
+        padding: 115px 15px;
+        padding-bottom: 85px;
+    }
+
+    .inner_About_area img {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 70px;
+    }
+
+    .inner_About_area {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .About_feature {
+        margin: 0;
+    }
+
+    .faq_img img {
+        margin-left: 0;
+    }
+
+    .price_bg_img img {
+        width: 100%;
+        height: 735px;
+    }
+
+    .service_area {
+        padding: 70px 55px;
+        padding-bottom: 0;
+    }
+
+    .inner_service_area input[type="submit"] {
+        font-size: 16px;
+        padding: 15px 12px;
+    }
+
+    .m_bottom {
+        margin-bottom: 90px;
+    }
+
+    #testimonial_area {
+        padding: 105px 0;
+    }
+
+    .price_labal {
+        width: 65%;
+    }
+
+    .price_details {
+        top: 95px;
+        padding-top: 0;
+    }
+
+    .footer_title {
+        text-align: center;
+    }
+
+    .newsletter_area {
+        width: 100%;
+    }
+
+    .navigation_area ul {
+        text-align: center;
+    }
+
+    .company_area ul {
+        text-align: center;
+    }
+
+    #backTotop {
+        bottom: 24px;
+        right: 18px;
+    }
+}
+
+    /* ====large mobile Part===== */
+    /* from litte screen to Large screen mobile */
+    @media screen and (min-width:200px) and (max-width:480px) {
+        .comment {
+            width: 80%;
+        }
+
+        .comment_name h4 {
+            margin-top: 258px;
+            margin-left: 26px;
+        }
+
+        #hero_area {
+            padding: 115px 15px;
+            padding-bottom: 30px;
+        }
+
+        .written_area .h4 {
+            margin-bottom: 15px;
+        }
+
+        .written_area .h1 {
+            font-size: 43px;
+        }
+
+        .written_area h3 {
+            font-size: 30px;
+        }
+
+        .written_area p {
+            padding: 20px 0;
+        }
+
+        .img_area {
+            margin-top: 5px;
+        }
+
+        #About_area {
+            padding: 60px 15px;
+        }
+
+        .feature_link1 a {
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .feature_link2 a {
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        #service_area {
+            height: auto;
+        }
+
+        .service_area {
+            padding: 70px 55px;
+        }
+
+        .service_word h3 {
+            font-size: 20px;
+        }
+
+        .service_word h2 {
+            font-size: 25px;
+        }
+
+        .navigation_area ul {
+            text-align: left;
+        }
+
+        .company_area ul {
+            text-align: left;
+        }
+
+        .footer_heading {
+            flex-wrap: wrap;
+        }
+
+        .About_feature h2 {
+            font-size: 34px;
+            line-height: 47px;
+        }
+
+        .heading h2 {
+            font-size: 34px;
+        }
+
+        .project_heading h2 {
+            font-size: 41px;
+        }
+
+        .project_heading {
+            margin-bottom: 32px;
+        }
+
+        .inner_project_area ul {
+            margin-bottom: 40px;
+        }
+
+        .faq_header h2 {
+            font-size: 38px;
+        }
+
+        #faq_area {
+            padding: 65px 0;
+        }
+
+        #project_area {
+            padding: 75px 0px;
+        }
+
+        #price_area {
+            padding: 65px 0;
+        }
+
+        .price_heading_area h2 {
+            font-size: 37px;
+        }
+
+        .price_heading_area {
+            margin-bottom: 40px;
+        }
+
+        #blog_area {
+            padding: 65px 0;
+        }
+
+        .blog_heading h5 {
+            font-size: 22px;
+        }
+
+        .blog_heading h2 {
+            font-size: 35px;
+        }
+
+        .blog_heading {
+            margin-bottom: 43px;
+        }
+
+        #backTotop {
+            bottom: 24px;
+            right: 18px;
+        }
+        .testimonial_heading h2 {
+            font-weight: bolder;
+            font-size: 40px;
+        }
+    }
+
+    /* ====Medium mobile Part===== */
+    /* from litte screen to medium screeen mobile */
+    @media screen and (min-width:200px) and (max-width:400px) {
+        .written_area .h1 {
+            font-size: 34px;
+        }
+
+        .written_area h3 {
+            font-size: 26px;
+        }
+
+        .btn1 {
+            margin-right: 12px;
+        }
+
+        .About_feature h2 {
+            line-height: 47px;
+            font-size: 31px;
+        }
+
+        .heading h2 {
+            font-weight: 900;
+            font-size: 35px;
+        }
+
+        .project_heading {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .project_heading h2 {
+            font-size: 35px;
+        }
+
+        .inner_project_area ul {
+            margin-bottom: 30px;
+        }
+
+        #faq_area {
+            padding: 65px 0;
+        }
+
+        .faq_header h2 {
+            font-size: 37px;
+        }
+
+        .testimonial_heading h2 {
+            font-size: 34px;
+        }
+
+        .comment_name h4 {
+            margin-top: 282px;
+        }
+
+        #price_area {
+            padding: 65px 0;
+        }
+
+        .price_heading_area {
+            margin-bottom: 40px;
+        }
+
+        .price_heading_area h5 {
+            font-size: 22px;
+        }
+
+        .price_heading_area h2 {
+            font-size: 35px;
+        }
+
+        #blog_area {
+            padding: 65px 0;
+        }
+
+        .blog_heading {
+            text-align: center;
+            margin-bottom: 55px;
+        }
+
+        .blog_heading h5 {
+            font-size: 22px;
+        }
+
+        .blog_heading h2 {
+            font-size: 35px;
+        }
+
+        #backTotop {
+            bottom: 24px;
+            right: 18px;
+        }
+    }
+
+    /* ====Small mobile Part===== */
+    /* from litte screen to Small screen mobile */
+    @media screen and (min-width:200px) and (max-width:340px) {
+        .written_area .h1 {
+            font-size: 30px;
+        }
+
+        .written_area h3 {
+            font-size: 25px;
+        }
+
+        .About_feature h2 {
+            line-height: 40px;
+            font-size: 26px;
+        }
+
+        .comment_name h4 {
+            margin-top: 377px;
+        }
+
+        #backTotop {
+            bottom: 24px;
+            right: 18px;
+        }
+
+        .hero_btn {
+            flex-wrap: wrap;
+        }
+
+        .btn1 {
+            margin-bottom: 10px;
+        }
+    }
